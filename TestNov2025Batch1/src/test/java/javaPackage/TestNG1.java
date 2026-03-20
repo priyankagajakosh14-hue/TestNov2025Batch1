@@ -14,6 +14,7 @@ public class TestNG1 {
 	
 	@Test
 	public void a2() {
+		System.out.println(" hello Priyanka, this is methods of @test");
 		System.out.println("hello Test1 method");
 	}
 	@Test
