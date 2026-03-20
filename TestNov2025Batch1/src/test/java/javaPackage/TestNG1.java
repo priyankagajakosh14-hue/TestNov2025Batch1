@@ -27,6 +27,7 @@ public class TestNG1 {
 	}
 	@BeforeTest
 	public void b() {
+		System.out.println("This is @BeforeMethod"); 
 		System.out.println("hello @BeforeTest method");
 	}
 	
