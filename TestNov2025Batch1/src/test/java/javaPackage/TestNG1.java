@@ -14,6 +14,7 @@ public class TestNG1 {
 	
 	@Test
 	public void a2() {
+		System.out.println(" hello Priyanka, this is methods of @test");
 		System.out.println("hello Test1 method");
 	}
 	@Test
@@ -26,6 +27,7 @@ public class TestNG1 {
 	}
 	@BeforeTest
 	public void b() {
+		System.out.println("This is @BeforeMethod"); 
 		System.out.println("hello @BeforeTest method");
 	}
 	
